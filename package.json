@@ -1,0 +1,24 @@
+{
+  "name": "learnhermes",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A CodeCrafters-style course where you build an OpenClaw/Hermes-style persistent agent runtime from scratch.",
+  "scripts": {
+    "stage": "bun run.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "typescript": "^5.6.2",
+    "vitest": "^2.1.1"
+  },
+  "dependencies": {
+    "yaml": "^2.5.1"
+  },
+  "engines": {
+    "bun": ">=1.1.0"
+  }
+}
